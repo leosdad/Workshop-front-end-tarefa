@@ -74,7 +74,7 @@ export function CustomersTable({
               return (
                 <Table.Th
                   key={column.field}
-                  className={[classes.th, column.widthClass].join(' ')}
+                  className={column.widthClass}
                   aria-sort={ariaSort}
                 >
                   <UnstyledButton

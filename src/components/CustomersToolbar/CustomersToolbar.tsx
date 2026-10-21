@@ -31,6 +31,7 @@ export function CustomersToolbar() {
           <Menu.Target>
             <ActionIcon
               variant="subtle"
+              color="mercadoBom"
               size={40}
               radius={8}
               aria-label="Ações adicionais"
@@ -54,6 +55,7 @@ export function CustomersToolbar() {
 
         <ActionIcon
           variant="subtle"
+          color="mercadoBom"
           size={40}
           radius={8}
           aria-label="Ações da listagem"
@@ -70,6 +72,7 @@ export function CustomersToolbar() {
         <Tooltip label="Filtros" withArrow>
           <ActionIcon
             variant="subtle"
+            color="mercadoBom"
             size={40}
             radius={8}
             aria-label="Filtros"
@@ -83,6 +86,7 @@ export function CustomersToolbar() {
         <Tooltip label="Informações" withArrow>
           <ActionIcon
             variant="subtle"
+            color="mercadoBom"
             size={40}
             radius={8}
             aria-label="Informações"

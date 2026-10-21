@@ -1,5 +1,4 @@
 import { Pagination, Text } from '@mantine/core';
-import type { CSSProperties } from 'react';
 
 import { MaterialSymbol } from '../MaterialSymbol/MaterialSymbol';
 import classes from './TablePagination.module.css';
@@ -13,16 +12,8 @@ interface TablePaginationProps {
 }
 
 function createPaginationIcon(name: string) {
-  return function PaginationIcon({
-    className,
-    style,
-  }: {
-    className?: string;
-    style?: CSSProperties;
-  }) {
-    return (
-      <MaterialSymbol name={name} size={24} className={className} style={style} />
-    );
+  return function PaginationIcon({ className }: { className?: string }) {
+    return <MaterialSymbol name={name} size={24} className={className} />;
   };
 }
 
