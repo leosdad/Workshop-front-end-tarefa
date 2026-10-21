@@ -1,0 +1,19 @@
+:root {
+  --mb-primary: #1d4289;
+  --mb-primary-soft: #ceddf9;
+  --mb-on-primary: #ffffff;
+  --mb-accent: #f1be48;
+  --mb-success: #79d05f;
+  --mb-danger: #ff5454;
+  --mb-warning: #f1be48;
+  --mb-surface: #f2f2f6;
+  --mb-card: #ffffff;
+  --mb-text: #202023;
+  --mb-text-muted: rgba(32, 32, 35, 0.64);
+  --mb-divider: rgba(32, 32, 35, 0.08);
+  --mb-divider-strong: rgba(47, 47, 47, 0.2);
+  --mb-topbar-divider: rgba(32, 32, 35, 0.2);
+  --mb-sidebar-divider: rgba(255, 255, 255, 0.2);
+  --mb-sidebar-text: rgba(255, 255, 255, 0.9);
+  --mb-scrollbar: rgba(47, 47, 47, 0.2);
+}

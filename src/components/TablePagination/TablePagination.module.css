@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  margin-top: 12px;
+}
+
+.range {
+  font-size: 14px;
+  color: var(--mb-text);
+}
+
+.pagination {
+  color: var(--mb-text);
+}
+
+.control {
+  color: var(--mb-text);
+}
+
+.control[data-disabled] {
+  opacity: 0.2;
+}
+
+.pagination :global([data-disabled]) {
+  opacity: 0.2;
+}

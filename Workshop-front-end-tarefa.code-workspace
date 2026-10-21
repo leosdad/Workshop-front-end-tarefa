@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/node_modules": true
+		},
+		"search.exclude": {
+			".git": true,
+			"__**/**": true,
+			"**/*.svg": true,
+			"**/__*/**": true
+		},
+		"editor.tabSize": 2
+	}
+}

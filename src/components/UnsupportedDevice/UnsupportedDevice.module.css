@@ -1,0 +1,29 @@
+.screen {
+  display: grid;
+  min-height: 100dvh;
+  padding: 24px;
+  color: var(--mb-on-primary);
+  background: var(--mb-primary);
+  place-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  max-width: 420px;
+  text-align: center;
+}
+
+.title {
+  margin: 4px 0 0;
+  font-size: 22px;
+  color: var(--mb-on-primary);
+}
+
+.message {
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.84);
+}

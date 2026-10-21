@@ -1,0 +1,31 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: 40px;
+  margin-top: 16px;
+}
+
+.primaryButton {
+  height: 40px;
+  padding: 0 18px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.iconButton {
+  color: var(--mb-primary);
+}
+
+.iconButton:hover {
+  background: rgba(29, 66, 137, 0.08);
+}
+
+.filterIndicator {
+  margin-right: 8px;
+  font-size: 14px;
+  color: var(--mb-text);
+  white-space: nowrap;
+}
