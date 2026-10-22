@@ -1,5 +1,5 @@
 
-# Tarefa prática para o workshop
+# Tarefa prática para o workshop "Front-end orientado a UX com IA generativa"
 
 ## Links deste workshop
 
@@ -40,3 +40,8 @@ Utilizando DeepSeek V4.1 Flash, thinking effort *High* no VS Code:
 [ChatGPT](https://chat.openai.com/) \
 [Claude](https://claude.ai/) \
 [Gemini](https://gemini.google.com/)
+
+### Outros
+
+[Dissertação sobre princípios de usabilidade](https://lume.ufrgs.br/handle/10183/49087) \
+[Metodologia para princípios de usabilidade](https://lume.ufrgs.br/handle/10183/76777)
